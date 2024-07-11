@@ -242,6 +242,7 @@ margin-bottom: 48px;
     height: 460px;
     margin: auto;
     /* background-color: blue; */
+    margin-bottom: 100px;
 }
 #sec4-h3{
 text-align: center;
@@ -320,4 +321,66 @@ line-height: 19px;
 letter-spacing: 0%;
 text-align: left;
 text-decoration-line: underline;
+ }
+
+ /* section-5 */
+ .section5{
+    margin: auto;
+    background-image: url('./assets/handshake.jpg');
+    background-size: cover;
+    width: 1140px ;
+    height:314px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+ }
+
+ .sec5-h3{
+    text-align: center;
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 16px;
+ }
+
+ .sec5-p{
+    text-align: center;
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+margin-bottom: 24px;
+ }
+ .sec5-input{
+    text-align: center;
+    
+ }
+ textarea{
+    width: 540px;
+    height: 57px;
+ }
+ .sec5-btn{
+    width: 120px;
+    height: 58px;
+    border-radius: 8px;
+
+background: rgb(255, 255, 255);
+ }
+ .sec5-type{
+    width: 540px;
+    height: 57px;
+    box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+
+background: rgb(255, 255, 255);
  }
