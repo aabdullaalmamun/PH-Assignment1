@@ -197,6 +197,7 @@ height: 72px;
     height: 777px;
     /* background-color: blue; */
     margin: auto;
+    margin-bottom: 181px;
 }
 .sec3-h3{
     text-align: center;
@@ -233,6 +234,90 @@ margin-bottom: 48px;
     border-radius: 50px;
     width: 1076px;
     height: 550px;
-    
+ }
 
+ /* section -4 */
+.section4{
+    width: 1140px;
+    height: 460px;
+    margin: auto;
+    /* background-color: blue; */
+}
+#sec4-h3{
+text-align: center;
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 24px;
+}
+#sec4-p{
+text-align: center;
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+text-align: justify;
+margin-bottom: 48px;
+}
+ .sec4-parent  {
+    display: flex;
+    /* background-color: blue; */
+    justify-content: space-between;
+    width: 1140px;
+    height: 330px;
+    padding: 40px;
+ }
+ .sec4-child{
+    width: 364px;
+    height: 320px;
+    /* background-color: yellow; */
+ }
+ .sec4-img{
+    margin-top: 20px;
+ }
+ .sec4-child>img{
+    margin-top: 10px;
+    width: 56px;
+height: 56px;
+ }
+ .sec4-child>h4{
+    margin-top: 24px;
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 800;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+ }
+ .sec4-child .sec4-p{
+    margin-top: 10px;
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0.7;
+margin-bottom: 24px;
+ }
+
+ .sec4-child .sec4-a{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: underline;
  }
